@@ -29,6 +29,14 @@ Engineer-level SC-500 lab demonstrating AI security posture management with Micr
 
 ---
 
+## 🖼️ Lab Visuals
+
+<p align="center">
+  <img src="./Architecture/architecture.png" alt="SC-500 Lab 05 — Security Architecture" width="100%">
+</p>
+
+---
+
 ## 🎯 Executive Summary
 
 This lab demonstrates how an Azure AI workload can be discovered, assessed and hardened using **Microsoft Defender for Cloud** and **Microsoft Foundry**.
@@ -546,6 +554,123 @@ SC-500-Lab-05-AI-Security-Posture-Threat-Protection-Microsoft-Defender-for-Cloud
 | 76–78 | Defender recommendation/resource health |
 
 > Redact subscription IDs, tenant identifiers, keys, tokens and other sensitive metadata before publishing screenshots publicly.
+
+---
+
+
+---
+
+# 📸 Evidence Gallery
+
+> **Visual evidence is intentionally embedded below** so the GitHub README itself shows the key implementation results. The complete screenshot archive remains under `Evidence/`.
+
+## AI Security Posture — Final Overview
+
+<p align="center">
+  <img src="./Evidence/72-defender-ai-security-post-hardening.png" alt="Defender for Cloud Data and AI Security final posture" width="100%">
+</p>
+
+**Evidence 72 — Data & AI Security:** 8 AI-related resources, 5 AI services, 3 models/endpoints, and 0 data/AI resources requiring attention.
+
+---
+
+## AI Workload Discovery
+
+<p align="center">
+  <img src="./Evidence/73-defender-ai-workloads-discovery.png" alt="Cloud Security Explorer AI workload discovery" width="100%">
+</p>
+
+**Evidence 73 — Cloud Security Explorer:** AI model relationships discovered inside the Azure environment.
+
+---
+
+## AI Models & Endpoints
+
+<p align="center">
+  <img src="./Evidence/74-defender-ai-models-endpoints.png" alt="Cloud Security Explorer AI models and endpoints" width="100%">
+</p>
+
+**Evidence 74 — Model discovery:** `gpt-5-mini`, `gpt-5.6-luna`, and `text-embedding-3-large` discovered running on Microsoft Foundry.
+
+---
+
+## Final Data & AI Security Overview
+
+<p align="center">
+  <img src="./Evidence/75-defender-data-ai-security-final-overview.png" alt="Final Defender for Cloud Data and AI security overview" width="100%">
+</p>
+
+**Evidence 75 — Final overview:** Defender for Cloud reports 5 AI services and 8 AI-related resources.
+
+---
+
+## Defender Recommendation Assessment State
+
+<p align="center">
+  <img src="./Evidence/76-defender-foundry-recommendations-pending.png" alt="Defender for Cloud Foundry recommendations pending evaluation" width="100%">
+</p>
+
+**Evidence 76 — Assessment state:** the four Foundry recommendations remained `Not evaluated` in the Defender assessment view after the underlying Azure controls had already been independently validated.
+
+---
+
+## Defender AI Resource Inventory
+
+<p align="center">
+  <img src="./Evidence/77-defender-inventory-final.png" alt="Defender for Cloud inventory showing AI resources" width="100%">
+</p>
+
+**Evidence 77 — Inventory:** Foundry resources and supporting Azure security resources are visible in Defender for Cloud.
+
+---
+
+## Foundry Resource Health — Final Check
+
+<p align="center">
+  <img src="./Evidence/78-defender-foundry-resource-health-final.png" alt="Foundry resource health and recommendations" width="100%">
+</p>
+
+**Evidence 78 — Resource Health:** the four Foundry security recommendations are shown against the exact lab resource.
+
+---
+
+## Selected Implementation Evidence
+
+### Resource Group
+
+<p align="center">
+  <img src="./Evidence/03-resource-group-created.png" alt="SC-500 Lab 05 resource group" width="100%">
+</p>
+
+### Defender CSPM
+
+<p align="center">
+  <img src="./Evidence/12-defender-cspm-enabled-success.png" alt="Defender CSPM enabled" width="100%">
+</p>
+
+### Microsoft Foundry Resource
+
+<p align="center">
+  <img src="./Evidence/16-foundry-resource-created.png" alt="Microsoft Foundry resource created" width="100%">
+</p>
+
+### Cloud Security Explorer Query
+
+<p align="center">
+  <img src="./Evidence/18-ai-workloads-query-builder.png" alt="AI workloads Cloud Security Explorer query" width="100%">
+</p>
+
+### GPT-5.6-Luna Model
+
+<p align="center">
+  <img src="./Evidence/20-foundry-model-catalog-luna.png" alt="GPT-5.6-Luna model in Microsoft Foundry" width="100%">
+</p>
+
+### Foundry Playground
+
+<p align="center">
+  <img src="./Evidence/23-foundry-luna-controlled-inference.png" alt="GPT-5.6-Luna Foundry playground" width="100%">
+</p>
 
 ---
 
