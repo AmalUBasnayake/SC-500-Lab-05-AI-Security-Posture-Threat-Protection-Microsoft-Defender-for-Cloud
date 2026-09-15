@@ -810,35 +810,10 @@ After evidence collection:
 
 The lab demonstrates an engineer-level approach to securing an Azure AI workload:
 
-```text
-DISCOVER
-   ↓
-AI Inventory
-   ↓
-ASSESS
-   ↓
-Defender CSPM
-   ↓
-HARDEN
-   ↓
-Identity + RBAC + Local Auth Disabled
-   ↓
-ISOLATE
-   ↓
-Private Endpoint + Restricted Network
-   ↓
-LOG
-   ↓
-Diagnostic Settings + Log Analytics
-   ↓
-VALIDATE
-   ↓
-Cloud Security Explorer + KQL
-   ↓
-MONITOR
-   ↓
-Security Operations Readiness
-```
+<p align="center">
+  <img src="./Architecture/final-outcome.png" alt="SC-500 Lab 05 — Security Final Putcome" width="100%">
+</p>
+
 
 > **Secure the AI workload as a complete cloud system — not just the model.**
 
