@@ -827,6 +827,14 @@ Cloud Security | Cybersecurity | Azure Security | AI Security
 
 **Build • Learn • Secure • Grow**
 
+### 🔗 Profiles
+
+- GitHub: https://github.com/AmalUBasnayake
+- Portfolio: https://amalcyberlab.vercel.app
+- LinkedIn: https://linkedin.com/in/amal-udayanga-basnayake
+- Medium: https://medium.com/@amalubasnayake
+
+
 ---
 
 <p align="center">
