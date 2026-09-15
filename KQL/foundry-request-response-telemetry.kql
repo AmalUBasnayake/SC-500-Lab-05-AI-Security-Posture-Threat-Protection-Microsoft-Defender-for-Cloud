@@ -1,0 +1,8 @@
+// SC-500 Lab 05 — Foundry Request/Response Telemetry Validation
+AzureDiagnostics
+| where ResourceProvider == "MICROSOFT.COGNITIVESERVICES"
+| where Resource == "FOUNDRY-SC500-AI-POSTURE"
+| where Category == "RequestResponse"
+| project TimeGenerated, ResponseCode=ResultSignature, DurationMs, OperationName, CorrelationId
+| order by TimeGenerated desc
+| take 50
